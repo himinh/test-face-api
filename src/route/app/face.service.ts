@@ -2,9 +2,10 @@
 import { Injectable } from '@nestjs/common';
 import * as faceapi from 'face-api.js';
 
-const canvas = require('canvas');
+import canvas, { Image, loadImage } from 'canvas';
 
 import { join } from 'path';
+import { readFileSync } from 'fs';
 const modelPath = join(process.cwd(), 'public', 'models');
 
 async function LoadModels() {
@@ -25,11 +26,15 @@ export class FaceService {
     try {
       const descriptions = [];
       // const img = await faceapi.fetchImage(imagePath);
+      const img = new Image();
+      img.src = readFileSync(imagePath);
 
-      const img = await canvas.loadImage(imagePath);
-
+      img.onload = () => {
+        console.log('Image loaded successfully');
+      };
+      const newPath: any = await loadImage(imagePath);
       const detections = await faceapi
-        .detectSingleFace(img)
+        .detectSingleFace(newPath)
         .withFaceLandmarks()
         .withFaceDescriptor();
 
