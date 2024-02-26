@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="messages"></ul>
+    <div>
+      <input id="input" type="text" />
+      <button id="submit">submit</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+    <script>
+      const socket = io('ws://s31giaibaitap.izisoft.io', {
+        extraHeaders: {
+          authorization:
+            'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Y3OGEwNjIxOTg1ZTZhZTg0ODNkMjQiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc0MjkxNTYsImV4cCI6MTY4NTAzMjM1Nn0.snR1leZ6bz_NbwAZiX_u37Xo9rXR7nZ7T3Y2VbrT1IA',
+        },
+      });
+      socket.emit('p55product10test_comment-answer', { name: 'minhchiu' });
+
+      socket.on('p55product10test_comment-answer', (data) => {
+        console.log({ data });
+      });
+
+      socket.on('notification_socket', (data) => {
+        console.log({ data });
+      });
+      console.log({ socket });
+      // const socket = io('ws://localhost:6031', { transports: ['websocket'] })
+    </script>
+  </body>
+</html>

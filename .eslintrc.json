@@ -1,0 +1,47 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "semi": true,
+        "jsxSingleQuote": false,
+        "quoteProps": "as-needed",
+        "singleAttributePerLine": true,
+        "htmlWhitespaceSensitivity": "css",
+        "vueIndentScriptAndStyle": false,
+        "proseWrap": "preserve",
+        "insertPragma": false,
+        "printWidth": 80,
+        "requirePragma": false,
+        "tabWidth": 2,
+        "useTabs": false,
+        "embeddedLanguageFormatting": "auto"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["./src/main.ts", "./src/components/app/app.module.ts"],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
+}

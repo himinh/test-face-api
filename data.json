@@ -1,0 +1,507 @@
+{
+  "title": "",
+  "titleEN": "",
+  "titleES": "",
+  "titlePT": "",
+  "thumbnail": "",
+  "exerciseType": "",
+  "type": ""
+}
+// plan eats
+{
+  "days": 1,
+  "bmi": 24.9
+}
+// plan eats details
+{
+  "planEatId": "6537dfd4c7881b5761eacc29",
+  "breakfast": [
+    "653880e1ed47ec15bee7a880"
+  ],
+  "lunch": [
+    "653880ebed47ec15bee7a882"
+  ],
+  "dinner": [
+    "653880f3ed47ec15bee7a884"
+  ],
+  "snack": [
+    "65388102ed47ec15bee7a886"
+  ]
+}
+// user plant eat
+{
+  "userId": "65276f3918392085f58d4966",
+  "planEatId": "6537dfd4c7881b5761eacc29"
+}
+// meals
+{
+  "mealType": "BREAKFAST",
+  "name": "Trà và cafe",
+  "nameEN": "Tea or Coffee",
+  "nameES": "Tea or Coffee",
+  "namePT": "Tea or Coffee",
+  "category": "STANDARD"
+}
+// SHopping categories
+{
+  "position": 1,
+  "title": "Bánh quy",
+  "titleEN": "Cookie",
+  "titleES": "Cookie",
+  "titlePT": "Cookie",
+  "thumbnail": "https://th.bing.com/th/id/R.c3c93214df6bb319b0dc021657383263?rik=FfApDYR7tKafhQ&pid=ImgRaw&r=0",
+  "week": [
+    1,
+    2
+  ]
+}
+// Shopping items
+{
+  "shoppingCategoryId": "6537f230806ee61c53ce3449",
+  "name": "name",
+  "nameEN": "nameEN",
+  "nameES": "nameES",
+  "namePT": "namePT",
+  "description": "description",
+  "descriptionEN": "descriptionEN",
+  "descriptionES": "descriptionES",
+  "descriptionPT": "descriptionPT",
+  "category": "STANDARD",
+  "week": [
+    1,
+    2
+  ]
+}
+// Exercise directory
+{
+  "categoryIds": [
+    "6537f6d87ed9f8edb839726c"
+  ],
+  "title": "title",
+  "titleEN": "titleEN",
+  "titleES": "titleES",
+  "titlePT": "titlePT",
+  "description": "description",
+  "descriptionEN": "descriptionEN",
+  "descriptionES": "descriptionES",
+  "descriptionPT": "descriptionPT",
+  "image": "image",
+  "instruct": "instruct",
+  "instructEN": "instructEN",
+  "instructES": "instructES",
+  "instructPT": "instructPT",
+  "timeExercise": 2,
+  "type": "DISCOVER",
+  "exerciseType": [
+    "CARDIO"
+  ],
+  "bmi": 24.9
+}
+// category
+{
+  "title": "title",
+  "titleEN": "titleEN",
+  "titleES": "titleES",
+  "titlePT": "titlePT",
+  "thumbnail": "thumbnail",
+  "exerciseType": [
+    "CARDIO"
+  ],
+  "bodyPart": [
+    "CHEST"
+  ],
+  "type": "DISCOVER"
+}
+{
+  "title": "2 phút luyện tập",
+  "titleEN": "2 min workout",
+  "titleES": "entrenamiento de 2 minutos",
+  "titlePT": "2 minutos de treino",
+  "thumbnail": ""
+}
+{
+  "title": "thư giãn",
+  "titleEN": "Relaxation",
+  "titleES": "Relajación",
+  "titlePT": "Relaxamento",
+  "thumbnail": ""
+}
+// exercise directory
+{
+  "categoryId": "6538d155255da9f2318eb5a7",
+  "title": "2 phút tập cơ chân",
+  "titleEN": "2 minute leg workout",
+  "titleES": "ES",
+  "titlePT": "PT",
+  "desc": "2 phút,tức thời",
+  "descEN": "2 mins, Intermediate",
+  "descES": "ES",
+  "descPT": "PT",
+  "image": "url://image/a.jpg",
+  "instruct": "Hướng dẫn cho 2 phút tập chân",
+  "instructEN": "En",
+  "instructES": "ES",
+  "instructPT": "PT",
+  "quantityExercise": 0,
+  "timeExercise": 120, // đơn vị second
+  "type": "DISCOVER",
+  "exerciseType": [
+    "FASTWORKOUT",
+    "BUTT&LEGS",
+    "INTERMEDIATE"
+  ],
+  "bmi": 28
+}
+// exercise
+{
+  "exerciseDirectoryId": "6538d91377f037d60f1aa711",
+  "title": "Nhấc chân",
+  "titleEN": "Leg Lifts",
+  "titleES": "ES",
+  "titlePT": "PT",
+  "desc": "Nhấc chân lên cao",
+  "descEN": "EN",
+  "descES": "ES",
+  "descPT": "PT",
+  "image": "url://image/a.jpg",
+  "video": "url://video/a.mp4",
+  "instruct": "Hướng dẫn cho tập chân",
+  "instructEN": "EN",
+  "instructES": "ES",
+  "instructPT": "PT",
+  //time exercise
+  "timeExercise": 22, // second
+  "animation": "a.gif",
+  "quantityExercise": 0,
+  "caloriesConsumed": 15,
+}
+{
+  "exerciseDirectoryId": "6538d91377f037d60f1aa711",
+  "title": "Duỗi chân",
+  "titleEN": "Leg Lifts",
+  "titleES": "ES",
+  "titlePT": "PT",
+  "desc": "Thả lỏng chân",
+  "descEN": "EN",
+  "descES": "ES",
+  "descPT": "PT",
+  "image": "url://image/a.jpg",
+  "video": "url://video/a.mp4",
+  "instruct": "Hướng dẫn cho tập chân",
+  "instructEN": "EN",
+  "instructES": "ES",
+  "instructPT": "PT",
+  //time exercise
+  "timeExercise": 20, // second
+  "animation": "a.gif",
+  "quantityExercise": 0,
+  "caloriesConsumed": 15,
+}
+
+
+
+// users
+{
+  "appType": "A5_GYM",
+  "height": 170,
+  "weight": 48,
+  "targetWeight": 55,
+  "bodyPart": ["ARMS"],
+  "exerciseLevel": "BEGINNER",
+  "exerciseDays": ["MONDAY", "SUNDAY"],
+  "deviceID": "1111111111",
+  "language": "en",
+  "gender": "MALE"
+}
+
+
+
+[
+  {
+    "detail": {
+      "status": "fulfilled",
+      "value": {
+        "title": "Anna Spa Đà Nẵng",
+        "storeType": "Spa",
+        "ratingAndCountCmt": "4.9\n(87)",
+        "openHours": "Saturday, 9:30 AM to 11:30 PM; Sunday, 9:30 AM to 11:30 PM; Monday, 9:30 AM to 11:30 PM; Tuesday, 9:30 AM to 11:30 PM; Wednesday, 9:30 AM to 11:30 PM; Thursday, 9:30 AM to 11:30 PM; Friday, 9:30 AM to 11:30 PM. Hide open hours for the week",
+        "address": "Address: 11A Trần Quốc Toản, Phước Ninh, Hải Châu, Đà Nẵng 550000 ",
+        "website": "http://annaspadanang.modoo.at/",
+        "phone": "0766 668 792",
+        "photos": [
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipMs0gGualX6x7P2GBp_yMcA9B_vXhYp5DRHsuXy=w203-h450-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNtFGwq_6klkXFNp4GUyP4kplnyDNu2iBWALadh=w203-h135-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipPz5mzKXI-ZpFVWgFFRF19qLuYfVxQM5mkR8n6f=w203-h140-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipMH9nktofXtZ9aNHSTzfDEzeyyXzxJwTHO_FFe2=w203-h285-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNs4KCBn7Q4FzfprsbL30gTIht4WFuS5Wxl2i7S=w203-h270-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipN7X54SR2oA3lMXDqabjjI24dm8oe6hkwCIPcaZ=w203-h450-k-no\")"
+        ],
+        "location": {
+          "latitude": 16.066016,
+          "longitude": 108.223351
+        }
+      }
+    },
+    "reviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "name": "Mr T VLOCK",
+          "star": "5 stars",
+          "time": "3 weeks ago",
+          "desc": "spa sạch sẽ, nhân viên skill tốt và gần chợ Hàn nhé. Cơ sở vật chất hiện đại mình rất hài lòng"
+        },
+        {
+          "name": "Lydia L.",
+          "star": "5 stars",
+          "time": "2 months ago",
+          "desc": "A lovely spa space with excellent service and reasonable price. The receptionist and therapist are professional. I had a foot massage and it was truly relaxing! It is newly opened and I can see it will only be more popular!"
+        },
+        {
+          "name": "Nguyễn Duy Trung,",
+          "star": "5 stars",
+          "time": "2 months ago",
+          "desc": "Spa nằm vị trí dễ tìm, quán decor phong cách rất đẹp và bắt mắt, nhìn không đủ mê rồi. Chị quản lý vui vẻ nhiệt tình hết sức, tư vấn đầy đủ, take care gọi là \"perfect\". Bạn ktv massage bài bản, vui vẻ và rất nhiệt tình. Là địa chỉ uy tín để giới thiệu cho ng thân và bạn bè.\nTks chị quản lý nhiều ."
+        },
+        {
+          "name": "Quỳnh Phạm",
+          "star": "5 stars",
+          "time": "2 months ago",
+          "desc": "Spa sạch sẽ, decor đẹp mắt và tinh tế. Nhân viên phục vụ nhiệt tình và có kỹ năng massage tốt. Cảm ơn vì đã cho Tôi một trải nghiệm thú vị."
+        },
+        {
+          "name": "Phan Văn Vinh",
+          "star": "5 stars",
+          "time": "2 months ago",
+          "desc": "Nice Spa, Excellent Service. Highly Recommend."
+        },
+        {
+          "name": "phong hp",
+          "star": "5 stars",
+          "time": "2 months ago",
+          "desc": "Dịch vụ tuyệt vời, điều ấn tượng là không gian sạch sẽ. Tôi sẽ đến lần nữa"
+        }
+      ]
+    },
+    "topReviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "link": "https://www.tripadvisor.com.vn/Attraction_Review-g298082-d19385328-Reviews-Anna_Spa-Hoi_An_Quang_Nam_Province.html",
+          "title": "Anna Spa (Hội An, Việt Nam) - Đánh giá - Tripadvisor",
+          "desc": "Anna Spa, Hội An: Xem đánh giá, bài viết và ảnh về Anna Spa, được xếp hạng Số trên Tripadvisor trong số điểm du lịch tại (Anna Spa, Hội An)."
+        },
+        {
+          "link": "https://www.facebook.com/baothanh2307/",
+          "title": "Anna Spa | Da Nang",
+          "desc": "Anna Spa - Đến Anna đẹp an tâm 322/57 Hải Phòng- Tp Đà Nẵng 0934.86.55.66 Nhận đào tạo học viên chuyên nghiệp giá rẻ. Thị Thủy ..."
+        },
+        {
+          "link": "https://vinid.net/blog/review-anna-spa-co-nhung-dich-vu-gi-bang-gia-o-anna-spa/",
+          "title": "Review Anna Spa có những dịch vụ gì? Bảng giá ở Anna ...",
+          "desc": "15 thg 7, 2020 — Mặc dù chất lượng dịch vụ tốt và đẳng cấp nhưng mức giá tại Anna Spa lại rất “hữu nghị” và hợp lí. ... Đà Nẵng bên cạnh những địa danh nổi tiếng ..."
+        },
+        {
+          "link": "/search?sca_esv=579237409&q=Anna+Spa+%C4%90%C3%A0+N%E1%BA%B5ng+%C4%91%C3%A1nh+gi%C3%A1&npsic=0&rflfq=1&rldoc=1&rllag=16064681,108213268,1128&tbm=lcl&sa=X&ved=2ahUKEwj2096Eh6mCAxWSs1YBHf01C7MQtgN6BAghEAI",
+          "title": "Bản đồ",
+          "desc": ""
+        },
+        {
+          "link": "https://chamspamassage.com/dia-chi-massage-tri-lieu",
+          "title": "Top 11 địa chỉ massage trị liệu Đà Nẵng uy tín nên trải ...",
+          "desc": "25 thg 4, 2023 — Massage trị liệu tại Đà Nẵng Snow White Spa cam kết sử dụng 100% sản phẩm có nguồn gốc xuất xứ rõ ràng. Được đánh giá cao về hiệu quả, chất ..."
+        }
+      ]
+    }
+  },
+  {
+    "detail": {
+      "status": "fulfilled",
+      "value": {
+        "title": "Vita Spa & Massage | Danang",
+        "storeType": "Spa",
+        "ratingAndCountCmt": "4.5\n(36)",
+        "openHours": "Saturday, 9 AM to 10 PM; Sunday, 9 AM to 10 PM; Monday, 9 AM to 10 PM; Tuesday, 9 AM to 10 PM; Wednesday, 9 AM to 10 PM; Thursday, 9 AM to 10 PM; Friday, 9 AM to 10 PM. Hide open hours for the week",
+        "address": "Address: 73 Nguyễn Chí Thanh, Thạch Thang, Hải Châu, Đà Nẵng 550000 ",
+        "website": "http://www.vitaspa-danang.com/",
+        "phone": "0788 557 755",
+        "photos": [
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNIUlkBBAM63nfnsitCCyzE83RXCKFUwgaSOaqL=w203-h152-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipPZLAyJdP5jhh0LbsJhs1IuZ3R3Fhe8wasSlTXG=w203-h203-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNush6yCXMzUGxxJfpJET0RVXjh5Tpc6-NV7RXw=w203-h152-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipP2iRvBueRvPzwcwcqoJqya3u7x-s_sQNuxDxOz=w203-h270-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipN5mL7YNbUXunBFGW-hEo06cBk38KkqcSsbBuod=w203-h360-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipPvIdnWVdmS5a8Pn2YlY6sVNXwHS25vMECtBw9b=w203-h152-k-no\")"
+        ],
+        "location": {
+          "latitude": 16.0759111,
+          "longitude": 108.2206042
+        }
+      }
+    },
+    "reviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "name": "Huy Anh Vu",
+          "star": "5 stars",
+          "time": "a month ago",
+          "desc": "Tôi đã có một trải nghiệm tuyệt vời tại Vita Spa! Dịch vụ đã giúp tôi thư giãn sau 1 chuyến bay dài từ Hà Nội . Nhân viên ở đây rất chuyên nghiệp và thân thiện. Không gian spa rất sạch sẽ và thoải mái, tạo điều kiện tốt để thư giãn và giảm căng thẳng. Chắc chắn sẽ quay lại!"
+        },
+        {
+          "name": "Anh Vu",
+          "star": "5 stars",
+          "time": "a month ago",
+          "desc": "I recently had the pleasure of experiencing a hot stone massage at Vita Spa in Da Nang, and I can't say enough good things about it! From start to finish, the entire experience was nothing short of exceptional.\n\nThe moment I walked into Vita Spa, I was greeted with a warm and welcoming atmosphere. The staff was friendly and professional, making me feel comfortable and relaxed right from the beginning. They took the time to explain the hot stone massage process and answer any questions I had, which immediately put me at ease.\n\nThe massage room itself was a tranquil oasis. The soft lighting, soothing music, and aromatic scents created the perfect ambiance for relaxation. The massage therapist was highly skilled and clearly knowledgeable about hot stone massage techniques. They used just the right amount of pressure and expertly placed the heated stones on my body to melt away tension and stress.\n\nThe sensation of the hot stones combined with the therapist's skillful hands was pure bliss. It was as if the stones had an innate ability to find and release all the knots and tightness in my muscles. Throughout the massage, I felt a profound sense of relaxation and well-being that I haven't experienced in a long time.\n\nWhat truly sets Vita Spa apart is their attention to detail. They provided a post-massage refreshment that was a delightful touch to conclude the experience. The entire visit left me feeling rejuvenated, refreshed, and utterly pampered.\n\nIf you're looking for a top-notch hot stone massage experience in Da Nang, Vita Spa is the place to go. Their skilled therapists, serene atmosphere, and commitment to customer satisfaction make it a must-visit destination for relaxation and self-care. I can't wait to return and indulge in their services again."
+        },
+        {
+          "name": "LE MICHAEL",
+          "star": "5 stars",
+          "time": "a year ago",
+          "desc": "Xuống sân bay Đà Nẵng, checkin khách sạn sớm quá chưa lấy phòng được nên tạt qua Spa massage body và cổ vai gáy.\n\nKhi xuống thấy cười tươi như hoa là biết chỗ này kỹ năng làm tốt rồi vì nóc nhà tôi khó chịu lắm. Tôi chấm điểm 5/5 vì làm nóc nhà tôi vui lòng, tôi chấm điểm cao vì phòng chờ đẹp mát lạnh, có ghế ngồi và có trà đậu ngon thơm.r"
+        },
+        {
+          "name": "Justin Lee",
+          "star": "1 star",
+          "time": "6 months ago",
+          "desc": "I just went there to get massage for 2 hour lmao worst experience ever.   It was all fun and nice chat in first 10 min then she kept talking and wasnt really doing massageiterary press without any force.   I asked so many time to do harder but everytime i ask for harder she did for min or 2 then back to weak press.     I been to many different massage shop in vietnam china and thailand.   They all had steps in massage.   First jiatsu then oil and part to part of body yet this place was literary killing time.   I dont know how they got this 4.7 star but im sure its all paid reviews.    여기 절대 비추 마사지 설렁설렁하고 시간 때우고 아파서 몸풀러갓는데 할줄도모릅니다"
+        },
+        {
+          "name": "삥대구창",
+          "star": "5 stars",
+          "time": "6 months ago",
+          "desc": "It was the best massage I got in Da Nang"
+        },
+        {
+          "name": "Dan B",
+          "star": "5 stars",
+          "time": "7 months ago",
+          "desc": "I broke my back 15 years ago so I usually have back pain. While traveling to Danang, I was feeling very locked in my lower back for a few days before booking a treatment in at Vita Spa. I was able to speak with the owner in English and she was able to instruct her staff to be careful around the sensitive areas of my back. I felt so much better after my treatment and would highly recommend!"
+        }
+      ]
+    },
+    "topReviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "link": "https://www.tripadvisor.com.vn/Attraction_Review-g293924-d17746588-Reviews-Vita_Spa-Hanoi.html",
+          "title": "Vita Spa (Hà Nội, Việt Nam) - Đánh giá - Tripadvisor",
+          "desc": ""
+        },
+        {
+          "link": "https://m.facebook.com/vitaspa.dn/",
+          "title": "VITA SPA | Da Nang",
+          "desc": ""
+        },
+        {
+          "link": "https://vitaspa-danang.com/vi/gioi-thieu/",
+          "title": "Trang chủ - Vita Spa Đà Nẵng",
+          "desc": "So với mặt bằng chung về giá dịch vụ massage tại Đà Nẵng, Vita Spa nằm trong top những spa có mức giá hợp lí nhất đơn giản vì chúng tôi không phải là một cơ sở ..."
+        },
+        {
+          "link": "https://nifehub.com/placetogo/detail/vita-spa-massage",
+          "title": "Vita spa - massage",
+          "desc": "Vita spa - massage. + Theo dõi. Chưa đánh giá. Chia sẻ trên : Với một nhóm các kỹ thuật viên dày dạn kinh nghiệm, phong phú về thành tích, luôn đi đầu trong ..."
+        },
+        {
+          "link": "https://top1danhgia.com/suc-khoe-lam-dep/xong-hoi-da-nang.html",
+          "title": "Review 12 địa chỉ xông hơi Đà Nẵng nổi tiếng, dịch vụ tốt",
+          "desc": "Kop Spa. Kop Spa & Massage là địa chỉ xông hơi massage tại Đà Nẵng được nhiều người lựa chọn vì sự ấn tượng mạnh mẽ mà nơi này tạo ra. · Vita Spa · Charm Spa."
+        }
+      ]
+    }
+  },
+  {
+    "detail": {
+      "status": "fulfilled",
+      "value": {
+        "title": "Golden Lotus Oriental Organic Spa 1",
+        "storeType": "Massage spa",
+        "ratingAndCountCmt": "4.9\n(3,529)",
+        "openHours": "Saturday, 9 AM to 10 PM; Sunday, 9 AM to 10 PM; Monday, 9 AM to 10 PM; Tuesday, 9 AM to 10 PM; Wednesday, 9 AM to 10 PM; Thursday, 9 AM to 10 PM; Friday, 9 AM to 10 PM. Hide open hours for the week",
+        "address": "Address: 209 Trần Phú, Phước Ninh, Hải Châu, Đà Nẵng 550000 ",
+        "website": "https://gloospa.com/",
+        "phone": "0236 3878 889",
+        "photos": [
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNsozKIi4xGGWOhZLTMWulNT80Not-aJjoulifT=w203-h134-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipMuTxbq9efwmLZP4qxXLz1WkcC8A1-WHBIoV8yR=w203-h152-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipNjxYid7APbTn4PgRLse4vXwAd8z6rm_zIsQ-X5=w203-h270-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipOS1EQd6tAMdywc1wJSaUl-ecOZkeh1-VVDfrj6=w203-h152-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipO1a0F0qRdMEBsq11S94G6GjKTxA_XupkT0GdiL=w203-h270-k-no\")",
+          "url(\"https://lh5.googleusercontent.com/p/AF1QipOX8F_pfdsCkGt2d4kiIC9JMxzYDu-JExWJkHNF=w203-h152-k-no\")"
+        ]
+      }
+    },
+    "reviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "name": "Diệu My Võ",
+          "star": "5 stars",
+          "time": "3 months ago",
+          "desc": "best experience ever, I have tried a few places but this place is amazing.  the decoration of this place make you feels comfortable and relax . a shared shower and locker room is available where we could take a shower after the oil massage.\nmassage was good as well. very professional. services is good and polite. will definately come back here again to try out their other massage packages !"
+        },
+        {
+          "name": "hyt",
+          "star": "5 stars",
+          "time": "3 months ago",
+          "desc": "Staff are welcoming, atmosphere is cosy and price is very value for money. The massage is good and press hard enough on acupuncture points. Finally a place where I do not need to keep telling the masseur to press harder. Highly recommend this place."
+        },
+        {
+          "name": "John Kuan",
+          "star": "5 stars",
+          "time": "6 days ago",
+          "desc": "Very good experience. My first massage in Vietnam. Go for their herbal ball package for something more unique. Also the snacks are amazing."
+        },
+        {
+          "name": "Vivian Ng",
+          "star": "2 stars",
+          "time": "5 months ago",
+          "desc": "They urged you to make payments right after the massage. Also, there are standard tipping system. The massage wasn't good. The massage beds look like not clean. The skills of the massage therapists are so-so."
+        },
+        {
+          "name": "Howard Hecht",
+          "star": "5 stars",
+          "time": "a month ago",
+          "desc": "I've got to join the chorus of those singing the praises of this oasis of calm in Da Nang city. Spotlessly clean, warm friendly service and excellent therapists."
+        },
+        {
+          "name": "keyoonz Ü",
+          "star": "5 stars",
+          "time": "3 months ago",
+          "desc": "Very clean and hygienic environment. Staff are friendly and welcoming. We did the foot massage for 60mins, it was relaxing and the masseur is strong and skillful.\n\nSuper relaxing experience every time we are here and will always come back again!!\n\nPs: I really like their pre and post massage refreshments. The candied lotus seed and sour mango combi is always good hehe"
+        }
+      ]
+    },
+    "topReviews": {
+      "status": "fulfilled",
+      "value": [
+        {
+          "link": "https://www.tripadvisor.com.vn/Attraction_Review-g298085-d15300780-Reviews-Golden_Lotus_Oriental_Organic_Spa_1-Da_Nang.html",
+          "title": "Golden Lotus Oriental Organic Spa 1 - Đà Nẵng - Tripadvisor",
+          "desc": ""
+        },
+        {
+          "link": "https://www.facebook.com/GoldenLotusSpaDN/?locale=vi_VN",
+          "title": "Golden Lotus Spa DaNang | Da Nang",
+          "desc": "690K - 1 liệu trình trải nghiệm (giá gốc 1800K) 3300K - 5 liệu trình ... GOLDEN LOTUS ORIENTAL ORGANIC SPA The best Spa in Danang city Open: 10:30 ..."
+        },
+        {
+          "link": "https://phongkhambacsi.vn/golden-lotus-oriental-organic-spa-hai-chau/",
+          "title": "Review các dịch vụ tại Golden Lotus Oriental Organic Spa ...",
+          "desc": "1 thg 2, 2023 — Đây là một nơi mà tôi cảm thấy rất tuyệt vời về dịch vụ massage giá rẻ bất ngờ ưu đãi 110k. Có đội ngũ nhân viên massage chuyên nghiệp. Không ..."
+        },
+        {
+          "link": "https://www.klook.com/vi/activity/19688-golden-lotus-spa-da-nang/",
+          "title": "Golden Lotus Oriental Organic Spa Experience in Da Nang",
+          "desc": "Đánh giá cho: Combo Golden Lotus Signature Đặt ngay. 1. Khi vào quán, chúng ... Đánh giá cho: Body Massage Đặt ngay. Đã đặt chỗ trước 2 giờ chiều hôm nay và ..."
+        },
+        {
+          "link": "https://www.kkday.com/vi/product/138219-danang-golden-lotus-oriental-organic-spa-experience-han-market-vietnam",
+          "title": "Danang Golden Lotus Oriental Organic Spa & Massage ...",
+          "desc": "Golden Lotus Spa đã chuyên về các trung tâm spa tại Việt Nam trong 17 năm và cung cấp các dịch vụ chất lượng cao như một thương hiệu cao cấp."
+        }
+      ]
+    }
+  }
+]

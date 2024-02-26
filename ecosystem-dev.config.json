@@ -1,0 +1,34 @@
+{
+  "apps": [
+    {
+      "name": "oni16aichatplus-backend-test",
+      "script": "dist/main.js",
+      "instances": 1,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "cwd": "/home/oni16aichatplus-backend-test/current",
+      "error_file": "/home/oni16aichatplus-backend-test/logs/web.err.log",
+      "out_file": "/home/oni16aichatplus-backend-test/logs/web.out.log",
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "develop": {
+      "user": "root",
+      "host": ["172.96.190.111"],
+      "ref": "origin/develop",
+      "repo": "git@gitlab.com:onigroup/oni16aichatplus-backend.git",
+      "path": "/home/oni16aichatplus-backend-test",
+      "post-setup": "yarn install; yarn build; pm2 start ecosystem-dev.config.json --env develop",
+      "post-deploy": "yarn install; yarn build; pm2 restart ecosystem-dev.config.json --env develop",
+      "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"]
+    }
+  }
+}
